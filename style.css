@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    color: #777;
+    background-color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    background-image: linear-gradient(to right bottom, #130746, #9683ee);
+    color: #fff;
+    height: 100vh;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    position: relative;
+}
+.calc-box{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:#363232;
+    border-radius: 1.5rem;
+    width: 31%;
+    height: 58rem;
+    margin-top: 12rem;
+    overflow: hidden;
+    backface-visibility: hidden;
+}
+h1{
+    text-align: center;
+    background-color: #251f41;
+    padding: 1.5rem 0;
+    font-size: 2rem;
+    font-weight: 400;
+}
+p{
+    margin: 1.5rem 2rem;
+    font-size: 1.8rem;
+    padding-left: 3rem;
+}
+#dollar{
+    padding-left: 3rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+input[type="text"]{
+    width: 70%;
+    margin-left: 1rem;
+    padding: 1rem ;
+    font-size: 1.5rem;
+    border: none;
+}
+#service{
+    padding: 1.5rem ;
+    margin-left: 5rem;
+    font-size: 2rem;
+    width: 70%;
+    border: none;
+}
+
+.people-icon{
+    font-size: 2.5rem;
+    font-weight: 400;
+    padding-left: 1rem;
+    vertical-align: middle;
+    line-height: 120%;
+    margin-top: -5px;
+    width: 30px;
+
+}
+#calculate {
+    text-transform: uppercase;
+    font-weight: 300;
+    display: block;
+    margin: 3rem auto;
+    background: #130746;
+    border-radius: 1rem;
+    width: 20rem;
+    height: 5rem;
+    font-size: 1.8rem;
+    color: #fff;
+    border: none;
+    transition: all .3s;
+  }
+  #calculate:hover{
+      background-color: #5b49ac;
+  }
+  #calculate:active{
+      transform: translateY(3px);
+  }
+
+  *:focus {outline: none;}
+
+  #total {
+    font-size: 3rem;
+    margin-top: .6rem;
+    text-align: center;
+  }
+  #tipAmount{
+      font-size: 2.5rem;
+      display: block;
+      font-weight: 400;
+  }
+  #total sup {
+    font-size: 2rem;
+    padding-right: .5rem;
+  }
+  
+  #total small {
+    font-size: 2rem;
+    font-weight: 400;
+    display: block;
+  }
